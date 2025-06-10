@@ -31,8 +31,6 @@ namespace Pigface_ThePigface.Patches
     {
         static void Postfix(Cellphone __instance)
         {
-            Plugin.Log!.LogInfo("hello jp!");
-
             AudioClip NewSound = Plugin.Bundle.LoadAsset<AudioClip>("call_sound");
 
             var Field = typeof(Cellphone).GetField("cellPhoneObj", BindingFlags.NonPublic | BindingFlags.Instance);
