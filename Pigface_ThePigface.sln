@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pigface_ThePigface", "Pigface_ThePigface\Pigface_ThePigface.csproj", "{0E95E8D3-FF69-45CD-A025-E2037DBC13D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E95E8D3-FF69-45CD-A025-E2037DBC13D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E95E8D3-FF69-45CD-A025-E2037DBC13D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E95E8D3-FF69-45CD-A025-E2037DBC13D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E95E8D3-FF69-45CD-A025-E2037DBC13D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80576A87-4858-42E5-BC81-454D4DF5A9AD}
+	EndGlobalSection
+EndGlobal
