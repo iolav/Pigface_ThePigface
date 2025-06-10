@@ -5,7 +5,7 @@ using System.IO;
 using System.Reflection;
 using UnityEngine;
 
-namespace PigfaceThePigface
+namespace Pigface_ThePigface
 {
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     public class Plugin : BaseUnityPlugin

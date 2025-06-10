@@ -4,7 +4,7 @@ using System.IO;
 using System.Reflection;
 using UnityEngine;
 
-namespace PigfaceThePigface.Patches
+namespace Pigface_ThePigface.Patches
 {
     [HarmonyPatch(typeof(Cellphone), "Awake")]
     internal class PhoneAwakePatch
