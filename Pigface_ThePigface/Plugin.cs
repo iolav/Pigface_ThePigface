@@ -16,7 +16,7 @@ namespace Pigface_ThePigface
 
         private readonly Harmony MyHarmony = new Harmony(PluginGUID);
 
-        public static string AssetsFolderPath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Assets");
+        public static string AssetsFolderPath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
         public static AssetBundle Bundle = AssetBundle.LoadFromFile(Path.Combine(Plugin.AssetsFolderPath, "assets"));
 
         public static ManualLogSource? Log;
