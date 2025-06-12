@@ -43,8 +43,6 @@ namespace Pigface_ThePigface.Patches
             if (AudioChild != null)
             {
                 Audio = AudioChild.GetComponent<AudioSource>();
-                Audio.maxDistance = 0.5f;
-                Audio.spatialBlend = 1.0f;
             }
             else
             {
